@@ -1,0 +1,39 @@
+body {
+	background-color: #008225;
+	margin: 0;
+}
+.container_btn_style {
+	height: 150px;
+	width: 150px;
+	background-color: #d0ae00;
+	border-radius: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 350px; 
+	z-index: 1;
+}
+.btn {
+	background-color: rgb(198, 0, 0);
+    box-shadow: 0px 0px 5px rgb(126, 0, 0);
+	color: white;
+	height: 90px;
+	width: 90px;
+	border-radius: 50px;
+	outline: none;
+	text-decoration: none;
+	border: none;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+    transition: ease-in 0.2s; 
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px rgb(86, 0, 0);
+}
